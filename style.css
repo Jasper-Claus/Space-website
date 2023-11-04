@@ -41,9 +41,13 @@
 }
 
 button{
-    baclkground-color: transparent;
-    outline: white 3px;
-}
+    background-color: transparent;
+    outline-color: white 3px;
+    border-radius: 30px;
+    width: 150px;
+    font-size: large;
+    font-family: arial;
+ }
 
 */Bilder/ landing page*/
 
@@ -52,7 +56,7 @@ button{
 }
 
 img{
-    margin-left:500px ;
+    margin-left:39% ;
     width: 50%;
     height: 50%;
     position: relative;
