@@ -2,7 +2,8 @@
     padding: 0;
     margin: 0;
     color: white;
-    background-color: #352566;
+    background-color: #361859   ;
+    z-index: -1;
 
 }
 
@@ -13,13 +14,15 @@
 }
 
 .logo-schrift{
+    background-color: transparent;
     font-size: medium;
     font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    text-align: left;
-    margin-top: 20px;
+    text-align: center;
+    font-size: x-large;
 
 }
+
+
 
 .container{
     position: absolute;
@@ -31,7 +34,7 @@
 }
 
 .container h1{
-    font-family: arial black;
+    font-family: oswald
 }
 
 .container p{
@@ -42,12 +45,21 @@
 
 button{
     background-color: transparent;
-    outline-color: white 3px;
+    border: none;
     border-radius: 30px;
     width: 150px;
     font-size: large;
-    font-family: arial;
- }
+    font-family: trispace;
+    transform: translateX(275%);
+    justify-content: center;
+}
+
+button:hover{
+    background-color:#F39246    ;
+    color: #000000;
+    transition: 0.5s;
+}
+
 
 */Bilder/ landing page*/
 
