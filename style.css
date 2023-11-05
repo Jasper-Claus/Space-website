@@ -91,4 +91,20 @@ hr {
     margin: 0;
  }
 
+ .card {
+    transform: translateY(500px);
+    color: black;
+    border: white 3px solid;
+    text-align: center;
+    justify-content:center ;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    width: 400px;
+    height: 300px;
+ }
+
+ .card img{
+    width: 50%;
+ }
  
