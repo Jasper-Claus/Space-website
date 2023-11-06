@@ -92,19 +92,22 @@ hr {
  }
 
  .card {
-    transform: translateY(500px);
-    color: black;
-    border: white 3px solid;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
     text-align: center;
-    justify-content:center ;
-    text-align: center;
-    position: relative;
-    z-index: 2;
-    width: 400px;
-    height: 300px;
- }
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
- .card img{
-    width: 50%;
- }
- 
+.card img {
+    border-radius: 50%;
+    max-width: 200px;
+    background-color: transparent; /* Hintergrund des Bildes transparent machen */
+}
+
+.card h1,
+.card p {
+    color: #000;
+    background-color: transparent; /* Hintergrund der Überschrift und des Absatzes transparent machen */
+    margin: 0; /* Zusätzlichen Abstand entfernen */
+}
