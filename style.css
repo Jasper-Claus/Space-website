@@ -72,7 +72,7 @@ button:hover{
     width: 50%;
     height: 50%;
     position: relative;
-    z-index: 1;
+    z-index: 2;
 }
 
 
@@ -84,7 +84,7 @@ hr {
     border-color: #ffffff; 
     border-radius: 30px;
     margin: 10px 0;
-    width: 50%; /* Oder passen Sie die Breite nach Bedarf an */
+    width: 50%; 
     height: 2px;
     background-color: #ccc;
     border: none;
@@ -101,14 +101,55 @@ hr {
 }
 
 .card img {
+
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    transform: scale(2.0); 
+    
+    z-index: 3;
+
     border-radius: 50%;
     max-width: 200px;
-    background-color: transparent; /* Hintergrund des Bildes transparent machen */
+    background-color: transparent;
 }
 
 .card h1,
 .card p {
     color: #000;
-    background-color: transparent; /* Hintergrund der Überschrift und des Absatzes transparent machen */
-    margin: 0; /* Zusätzlichen Abstand entfernen */
+    background-color: transparent;
+    margin: 0; 
+}
+
+/*card-rechts*/
+
+.card-rechts{
+    transform: translateX(50%);
+    transform: translateY(100%);
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.card-rechts img {
+
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    transform: scale(2.0); 
+    
+    z-index: 3;
+
+    border-radius: 50%;
+    max-width: 200px;
+    background-color: transparent;
+}
+
+.card-rechts h1,
+.card-rechts p {
+    color: #000;
+    background-color: transparent;
+    margin: 0; 
 }
