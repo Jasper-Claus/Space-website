@@ -76,6 +76,10 @@ button:hover{
 }
 
 
+
+
+
+
 /*planets*/
 
 hr {
@@ -90,7 +94,7 @@ hr {
     border: none;
     margin: 0;
  }
-
+/*card-links*/
  .card {
     transform: translateY(100%);
     background-color: white;
@@ -120,6 +124,12 @@ hr {
     background-color: transparent;
     margin: 0; 
 }
+
+/*card-links end*/
+
+
+
+
 
 /*card-rechts*/
 
