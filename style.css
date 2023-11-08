@@ -68,11 +68,17 @@ button:hover{
 }
 
 .bilder img{
+    background-color: transparent;
     margin-left:39% ;
     width: 50%;
     height: 50%;
     position: relative;
     z-index: 2;
+}
+
+.row{
+    position: relative;
+    z-index: -1;
 }
 
 
@@ -125,41 +131,29 @@ hr {
     margin: 0; 
 }
 
-/*card-links end*/
 
 
 
 
 
-/*card-rechts*/
 
-.card-rechts{
-    transform: translateX(50%);
-    transform: translateY(100%);
-    background-color: white;
-    border-radius: 10px;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+
+
+.card {
+    width: 45%;
+    display: inline-block;
+    margin: 10px; /* Ändere den Abstand auf 10 Pixel */
 }
 
-.card-rechts img {
-
-    width: 100%; 
-    height: 100%; 
-    object-fit: cover; 
-    transform: scale(2.0); 
-    
-    z-index: 3;
-
-    border-radius: 50%;
-    max-width: 200px;
-    background-color: transparent;
+img {
+    max-width: 100%;
+    height: auto;
 }
 
-.card-rechts h1,
-.card-rechts p {
-    color: #000;
-    background-color: transparent;
-    margin: 0; 
+@media (max-width: 600px) {
+    .card {
+        width: 100%;
+        display: block;
+        margin: 5px; /* Lasse den Abstand auf 5 Pixel für Handys */
+    }
 }
