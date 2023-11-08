@@ -3,8 +3,7 @@
     margin: 0;
     color: white;
     background-color: #361859   ;
-    z-index: -1;
-
+    z-index: -2;
 }
 
 */head bereich*/
@@ -73,7 +72,7 @@ button:hover{
     width: 50%;
     height: 50%;
     position: relative;
-    z-index: 2;
+    z-index: 1;
 }
 
 .row{
@@ -86,20 +85,6 @@ button:hover{
 
 
 
-/*planets*/
-
-hr {
-    background-color: #ffffff;
-    height: 5px;
-    border-color: #ffffff; 
-    border-radius: 30px;
-    margin: 10px 0;
-    width: 50%; 
-    height: 2px;
-    background-color: #ccc;
-    border: none;
-    margin: 0;
- }
 /*card-links*/
  .card {
     transform: translateY(100%);
@@ -111,14 +96,10 @@ hr {
 }
 
 .card img {
-
     width: 100%; 
     height: 100%; 
     object-fit: cover; 
     transform: scale(2.0); 
-    
-    z-index: 3;
-
     border-radius: 50%;
     max-width: 200px;
     background-color: transparent;
@@ -126,6 +107,7 @@ hr {
 
 .card h1,
 .card p {
+    font-family: arial;
     color: #000;
     background-color: transparent;
     margin: 0; 
