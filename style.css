@@ -86,7 +86,7 @@ button:hover{
 
 /*card-links*/
  .card {
-    transform: translateY(100%);
+    transform: translateY(50%);
     background-color: white;
     border-radius: 10px;
     padding: 20px;
