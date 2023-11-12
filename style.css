@@ -58,6 +58,7 @@ button{
 }
 
 button:hover{
+    border-radius: 30px;
     background-color:#F39246    ;
     color: #000000;
     transition: 0.5s;
@@ -143,3 +144,9 @@ img {
         margin: 5px; /* Lasse den Abstand auf 5 Pixel für Handys */
     }
 }
+
+
+
+/*black hole*/
+
+/*black hole*/
