@@ -148,5 +148,11 @@ img {
 
 
 /*black hole*/
+.black-hole-overall h1{
+    text-align: center;
+    margin-top: 20%;
+    text-decoration: underline;
+    font-family: Roboto sans-serif;
 
+}
 /*black hole*/
