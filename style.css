@@ -4,9 +4,10 @@
     color: white;
     background-color: #361859; 
     z-index: -2;
+}
 
-
-
+html{
+    scroll-behavior: smooth;
 }
 
 */head bereich*/
@@ -91,10 +92,16 @@ button:hover{
 
 
 /*card-links*/
+.planet-head{
+    margin-top: 5%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+}
  .card {
     transform: translateY(50%);
     background-color: white;
-    border-radius: 10px;
+    border-radius: 128px ;
     padding: 20px;
     text-align: center;
 
@@ -117,13 +124,6 @@ button:hover{
     background-color: transparent;
     margin: 0; 
 }
-
-
-
-
-
-
-
 
 
 .card {
