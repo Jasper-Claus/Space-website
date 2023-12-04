@@ -37,6 +37,37 @@ body{
 
 
 
+table {
+    font-family: Arial;
+    text-align: center;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto; 
+}
+
+th, td {
+    padding: 15px;
+    text-align: center; 
+    border: 1px solid #dddddd;
+    color: #fff;
+    background-clip: padding-box;
+}
+
+th {
+    background: rgb(15, 113, 115);
+}
+
+
+#info-planets {
+    width: 30%;
+    color: rgb(255, 255, 255);
+}
+
+#info-discovered {
+    width: 70%;
+    color: rgb(255, 255, 255);
+}
+
 
 
 
