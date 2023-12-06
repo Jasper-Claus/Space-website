@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background: #0f191a;
+    background: #0f191a
 }
 
 /*Navi oben*/
@@ -38,7 +38,7 @@ body{
 
 
 table {
-    font-family: Arial;
+    font-family: poppins;
     text-align: center;
     border-collapse: collapse;
     width: 80%;
