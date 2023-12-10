@@ -8,5 +8,9 @@
 
 - Written in HTML, CSS, JAVASCRIBT
 - Hosted by GitHub pages
+
+
+## if you would like to support me
+<a href="https://www.buymeacoffee.com/jasperclau1" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/arial-red.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
   
 
