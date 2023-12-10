@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+
 body{
     margin: 0;
     background: #0f191a
+
 }
 
 /*Navi oben*/
@@ -35,7 +41,7 @@ body{
 }
 
 
-
+/*tabel planets*/
 
 table {
     font-family: poppins;
@@ -67,6 +73,55 @@ th {
     width: 70%;
     color: rgb(255, 255, 255);
 }
+
+/*Themen*/
+
+.container-themen{
+text-align: center;
+}
+
+.black-hole, button{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+
+}
+
+/*Themen-black-hole*/
+
+#black-hole{ 
+    color: #fff;
+    text-align: left;
+    left: 10px;
+}
+
+#text-hole{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    text-align: left;
+    left: 15px;
+}
+
+#text{
+    font-family: Arial;
+    font-family: 'Montserrat', sans-serif;
+}
+
+details{
+    color: #fff;
+    text-align: left;
+    left: 15px;
+}
+
+summary{
+    font-family: arial;
+    font-size: larger;
+    color: #fff;
+    text-align: left;
+    left: 15px;
+}
+
+
 
 
 
