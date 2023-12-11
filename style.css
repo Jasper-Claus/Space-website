@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia&display=swap');
+
+
 
 
 
@@ -20,13 +24,14 @@ body{
 #headline, h1{
 
     text-align: center;
-    font-family: Bodoni-Bold;
+    font-family: 'Kalnia', serif;
     color: #fff;
 }
 
 #headline-second, a{
     transform: translateY(25%);
     transform: translateX(1%);
+    font-family: 'Poppins', sans-serif;
     color: #fff;
     text-align: left;
     text-decoration: none;
@@ -44,7 +49,7 @@ body{
 /*tabel planets*/
 
 table {
-    font-family: poppins;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     border-collapse: collapse;
     width: 80%;
@@ -74,52 +79,77 @@ th {
     color: rgb(255, 255, 255);
 }
 
+
+
+
+
 /*Themen*/
 
 .container-themen{
-text-align: center;
-}
-
-.black-hole, button{
-    background-color: transparent;
-    border: none;
-    color: #fff;
-
-}
-
-/*Themen-black-hole*/
-
-#black-hole{ 
-    color: #fff;
-    text-align: left;
-    left: 10px;
-}
-
-#text-hole{
-    font-family: 'Poppins', sans-serif;
-    color: #fff;
-    text-align: left;
-    left: 15px;
-}
-
-#text{
-    font-family: Arial;
-    font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
 details{
     color: #fff;
     text-align: left;
-    left: 15px;
+    left: 10px;
 }
 
-summary{
+
+
+
+
+/*Themen-black-hole*/
+
+#black-hole{ 
+    color: #fff;
+    transform: translateX(-35%);
+    font-family: 'Rethink Sans', sans-serif;
+}
+
+
+
+#black-hole-texte{
     font-family: arial;
     font-size: larger;
     color: #fff;
-    text-align: left;
-    left: 15px;
+    transform: translateX(2%);
+
 }
+
+#deteils-hole{
+    color: #fff;
+    text-align: left;
+    left: 10px;
+}
+
+
+
+
+/*stars*/
+
+.stars{
+    position: relative;
+    transform: translateY(5%);
+}
+
+#stars-headline{
+    color: #fff;
+    transform: translateX(43%);
+    font-family: 'Rethink Sans', sans-serif;
+
+
+
+}
+
+#stars-texte{
+    font-family: arial;
+    font-size: larger;
+    color: #fff;
+    text-align: right;
+
+}
+
 
 
 
