@@ -22,7 +22,6 @@ body{
 }
 
 #headline, h1{
-
     text-align: center;
     font-family: 'Kalnia', serif;
     color: #fff;
@@ -35,6 +34,7 @@ body{
     color: #fff;
     text-align: left;
     text-decoration: none;
+    font-size: 15px;
 }
 
 .head-pic img{
