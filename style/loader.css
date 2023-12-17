@@ -10,6 +10,7 @@ align-items: center;
 justify-content: center;
 background: #caf0f8;
 transition: opacity 0.75s, visibility 0.75s;
+cursor: wait;
 }
 
 .loader--hidden {

@@ -160,19 +160,29 @@ bild-deteils, img{
 }
 
 
+/*The Spiral Galaxy*/
+
+#gaylaxy-headline, h3{ 
+    color: #fff;
+    transform: translateX(5%);
+    font-family: 'Rethink Sans', sans-serif;
+}
 
 
 
+#galaxy-texte{
+    font-family: arial;
+    font-size: larger;
+    color: #fff;
+    transform: translateX(2%);
 
+}
 
-
-
-
-
-
-
-
-
+#deteils-galaxy{
+    color: #fff;
+    text-align: left;
+    left: 10px;
+}
 
 
 
