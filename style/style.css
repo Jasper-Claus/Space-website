@@ -122,7 +122,10 @@ bild-deteils, img{
     font-size: larger;
     color: #fff;
     transform: translateX(2%);
+}
 
+#black-hole-texte:hover{
+    cursor: pointer
 }
 
 #deteils-hole{
@@ -159,6 +162,10 @@ bild-deteils, img{
 
 }
 
+#stars-texte:hover{
+    cursor: pointer
+}
+
 
 /*The Spiral Galaxy*/
 
@@ -176,6 +183,10 @@ bild-deteils, img{
     color: #fff;
     transform: translateX(2%);
 
+}
+
+#galaxy-texte:hover{
+    cursor: pointer
 }
 
 #deteils-galaxy{
