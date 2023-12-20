@@ -11,6 +11,7 @@ justify-content: center;
 background: #caf0f8;
 transition: opacity 0.75s, visibility 0.75s;
 cursor: wait;
+z-index: 999;
 }
 
 .loader--hidden {
