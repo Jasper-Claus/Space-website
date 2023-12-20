@@ -13,6 +13,18 @@ body{
 
 }
 
+/* Fügen Sie diesen CSS-Code in Ihre CSS-Datei ein */
+
+#scrollBar {
+    position: fixed;
+    top: 0;
+    left: 0.5%;
+    width: 10px;
+    height: 0;
+    border-radius: 0px 0px 30px 30px;
+    background: #ef5d60;
+}
+
 /*Navi oben*/
 
 #over-head{
@@ -100,7 +112,10 @@ bild-deteils, img{
     width: 100%;
     height: 100%;
     position: relative;
+}
 
+.align-same{
+    vertical-align: middle;
 }
 
 
