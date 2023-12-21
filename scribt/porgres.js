@@ -6,3 +6,4 @@ window.onscroll = function() {
     var scrollHeight = (scrollPosition / docHeight) * 100;
     document.getElementById("scrollBar").style.height = scrollHeight + "%";
 }
+
