@@ -223,16 +223,17 @@ bild-deteils, img{
 #facs-headline, h4{
     color: #fff;
     font-family: arial black;
+    text-align: center;
 }
 
 #answer {
+    text-align: center;
     color: #fff;
-    font-size: 12px;
-    line-height: 1.4; 
+    font-size: 12px; 
     margin-bottom: 10px;
-    text-align: justify;
-    font-family: monospace;
-    }
+
+    font-family: 'Poppins', sans-serif;
+}
 
 
 
